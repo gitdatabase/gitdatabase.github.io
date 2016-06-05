@@ -1,1 +1,18 @@
-<h1>GitDb</h1>
+<!DOCTYPE html>
+<html>
+<title>GitDb | Collaborative Database editing using Git</title>
+
+<xmp id="readme" theme="cerulean" style="display:none;"></xmp>
+
+<a href="https://github.com/gitdatabase/gitdb" target="_blank"><img style="position: fixed; top: 0; right: 0; border: 0; z-index: 1000; margin: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script type="text/javascript">
+    var response = $.ajax({
+        url: 'https://raw.githubusercontent.com/gitdatabase/gitdb/master/Readme.md',
+        async: false
+    });
+    $('#readme').html(response.responseText);
+</script>
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+</html>
